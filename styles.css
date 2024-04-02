@@ -1,0 +1,109 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: #4a42b3;
+    color: #db1a0c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    margin-top: 25px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section Styles */
+#hero {
+    background: url('hero.jpg') center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px 0;
+}
+
+.room {
+    margin-bottom: 40px;
+}
+
+.room img {
+    width: 100%;
+    height: auto;
+}
+
+.room h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.room p {
+    margin-bottom: 10px;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    background: #5a60b1;
+    color: #e60e0e;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #323fb9;
+}
+
+/* Footer Styles */
+footer {
+    background: #3b3a86;
+    color: #da1515;
+    text-align: center;
+    padding: 30px 0;
+}
